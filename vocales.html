@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function contarVocales(texto) {
+        let vocales = texto.match(/[aeiouAEIOUáéíóúÁÉÍÓÚ]/g); 
+        return vocales ? vocales.length : 0;
+        }
+        console.log("Vocales en 'mi nombre es exequiel':", contarVocales("mi nombre es exequiel"));
+    </script>
+</body>
+</html>
